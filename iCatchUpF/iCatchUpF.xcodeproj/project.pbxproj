@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3CCD0122CEFE8A00AF21DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3CCD0022CEFE8A00AF21DE /* AppDelegate.swift */; };
+		AF3CCD0622CEFE8A00AF21DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3CCD0422CEFE8A00AF21DE /* Main.storyboard */; };
+		AF3CCD0922CEFE8A00AF21DE /* iCatchUpF.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF3CCD0722CEFE8A00AF21DE /* iCatchUpF.xcdatamodeld */; };
+		AF3CCD0E22CEFE8A00AF21DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3CCD0C22CEFE8A00AF21DE /* LaunchScreen.storyboard */; };
+		AFCAD2A422CF00ED00BD2B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCAD2A322CF00ED00BD2B53 /* Assets.xcassets */; };
+		AFCAD2A622CF00F900BD2B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCAD2A522CF00F900BD2B53 /* Assets.xcassets */; };
+		AFCAD2AD22CF04DF00BD2B53 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2AC22CF04DF00BD2B53 /* Article.swift */; };
+		AFCAD2AF22CF04E700BD2B53 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2AE22CF04E700BD2B53 /* Source.swift */; };
+		AFCAD2B122CF04F800BD2B53 /* FavoritesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2B022CF04F800BD2B53 /* FavoritesEntity.swift */; };
+		AFCAD2B322CF050400BD2B53 /* CatchUpStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2B222CF050400BD2B53 /* CatchUpStore.swift */; };
+		AFCAD2B522CF054A00BD2B53 /* LogoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2B422CF054A00BD2B53 /* LogoApi.swift */; };
+		AFCAD2B722CF071400BD2B53 /* SourcesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2B622CF071400BD2B53 /* SourcesResponse.swift */; };
+		AFCAD2B922CF071D00BD2B53 /* ArticlesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2B822CF071D00BD2B53 /* ArticlesResponse.swift */; };
+		AFCAD2BB22CF082200BD2B53 /* NewsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2BA22CF082200BD2B53 /* NewsApi.swift */; };
+		AFCAD2BD22CF0B3400BD2B53 /* SourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2BC22CF0B3400BD2B53 /* SourcesViewController.swift */; };
+		AFCAD2C122CF0D3600BD2B53 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2C022CF0D3600BD2B53 /* UIImageViewExtension.swift */; };
+		AFCAD2C322CF176D00BD2B53 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2C222CF176D00BD2B53 /* ArticlesViewController.swift */; };
+		AFCAD2C522CF1C2A00BD2B53 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2C422CF1C2A00BD2B53 /* ArticleViewController.swift */; };
+		AFCAD2C722CF25F200BD2B53 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2C622CF25F200BD2B53 /* SourceViewController.swift */; };
+		AFCAD2C922CF2EDE00BD2B53 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAD2C822CF2EDE00BD2B53 /* FavoritesViewController.swift */; };
+		DC35E94860A9B45CBEA04B19 /* Pods_iCatchUpF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3115E7F05162EC813622518 /* Pods_iCatchUpF.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF3CCCFD22CEFE8A00AF21DE /* iCatchUpF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCatchUpF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3CCD0022CEFE8A00AF21DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF3CCD0522CEFE8A00AF21DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF3CCD0822CEFE8A00AF21DE /* iCatchUpF.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iCatchUpF.xcdatamodel; sourceTree = "<group>"; };
+		AF3CCD0D22CEFE8A00AF21DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF3CCD0F22CEFE8A00AF21DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCAD2A322CF00ED00BD2B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = iCatchUpF/Assets.xcassets; sourceTree = "<group>"; };
+		AFCAD2A522CF00F900BD2B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFCAD2AC22CF04DF00BD2B53 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		AFCAD2AE22CF04E700BD2B53 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		AFCAD2B022CF04F800BD2B53 /* FavoritesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesEntity.swift; sourceTree = "<group>"; };
+		AFCAD2B222CF050400BD2B53 /* CatchUpStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchUpStore.swift; sourceTree = "<group>"; };
+		AFCAD2B422CF054A00BD2B53 /* LogoApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoApi.swift; sourceTree = "<group>"; };
+		AFCAD2B622CF071400BD2B53 /* SourcesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesResponse.swift; sourceTree = "<group>"; };
+		AFCAD2B822CF071D00BD2B53 /* ArticlesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesResponse.swift; sourceTree = "<group>"; };
+		AFCAD2BA22CF082200BD2B53 /* NewsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsApi.swift; sourceTree = "<group>"; };
+		AFCAD2BC22CF0B3400BD2B53 /* SourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewController.swift; sourceTree = "<group>"; };
+		AFCAD2C022CF0D3600BD2B53 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		AFCAD2C222CF176D00BD2B53 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		AFCAD2C422CF1C2A00BD2B53 /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		AFCAD2C622CF25F200BD2B53 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		AFCAD2C822CF2EDE00BD2B53 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		BC7DD681CC24AD334D3755D7 /* Pods-iCatchUpF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCatchUpF.debug.xcconfig"; path = "Target Support Files/Pods-iCatchUpF/Pods-iCatchUpF.debug.xcconfig"; sourceTree = "<group>"; };
+		E3115E7F05162EC813622518 /* Pods_iCatchUpF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCatchUpF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F8630CEEDE3D40774075A5 /* Pods-iCatchUpF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCatchUpF.release.xcconfig"; path = "Target Support Files/Pods-iCatchUpF/Pods-iCatchUpF.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3CCCFA22CEFE8A00AF21DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC35E94860A9B45CBEA04B19 /* Pods_iCatchUpF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		402306067A4F099CEBD82FB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC7DD681CC24AD334D3755D7 /* Pods-iCatchUpF.debug.xcconfig */,
+				E4F8630CEEDE3D40774075A5 /* Pods-iCatchUpF.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70B4E03F013AAA057B2512B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCAD2A322CF00ED00BD2B53 /* Assets.xcassets */,
+				E3115E7F05162EC813622518 /* Pods_iCatchUpF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3CCCF422CEFE8A00AF21DE = {
+			isa = PBXGroup;
+			children = (
+				AF3CCCFF22CEFE8A00AF21DE /* iCatchUpF */,
+				AF3CCCFE22CEFE8A00AF21DE /* Products */,
+				402306067A4F099CEBD82FB4 /* Pods */,
+				70B4E03F013AAA057B2512B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF3CCCFE22CEFE8A00AF21DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF3CCCFD22CEFE8A00AF21DE /* iCatchUpF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF3CCCFF22CEFE8A00AF21DE /* iCatchUpF */ = {
+			isa = PBXGroup;
+			children = (
+				AFCAD2AB22CF01D600BD2B53 /* Main */,
+				AFCAD2AA22CF01D600BD2B53 /* Model */,
+				AFCAD2A722CF01D500BD2B53 /* Network */,
+				AFCAD2A922CF01D600BD2B53 /* Resources */,
+				AFCAD2A822CF01D600BD2B53 /* ViewController */,
+				AF3CCD0F22CEFE8A00AF21DE /* Info.plist */,
+			);
+			path = iCatchUpF;
+			sourceTree = "<group>";
+		};
+		AFCAD2A722CF01D500BD2B53 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AFCAD2B422CF054A00BD2B53 /* LogoApi.swift */,
+				AFCAD2B622CF071400BD2B53 /* SourcesResponse.swift */,
+				AFCAD2B822CF071D00BD2B53 /* ArticlesResponse.swift */,
+				AFCAD2BA22CF082200BD2B53 /* NewsApi.swift */,
+			);
+			path = Network;
+			sourceTree = SOURCE_ROOT;
+		};
+		AFCAD2A822CF01D600BD2B53 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AFCAD2BC22CF0B3400BD2B53 /* SourcesViewController.swift */,
+				AFCAD2C022CF0D3600BD2B53 /* UIImageViewExtension.swift */,
+				AFCAD2C222CF176D00BD2B53 /* ArticlesViewController.swift */,
+				AFCAD2C422CF1C2A00BD2B53 /* ArticleViewController.swift */,
+				AFCAD2C622CF25F200BD2B53 /* SourceViewController.swift */,
+				AFCAD2C822CF2EDE00BD2B53 /* FavoritesViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = SOURCE_ROOT;
+		};
+		AFCAD2A922CF01D600BD2B53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF3CCD0422CEFE8A00AF21DE /* Main.storyboard */,
+				AF3CCD0C22CEFE8A00AF21DE /* LaunchScreen.storyboard */,
+				AFCAD2A522CF00F900BD2B53 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		AFCAD2AA22CF01D600BD2B53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF3CCD0722CEFE8A00AF21DE /* iCatchUpF.xcdatamodeld */,
+				AFCAD2AC22CF04DF00BD2B53 /* Article.swift */,
+				AFCAD2AE22CF04E700BD2B53 /* Source.swift */,
+				AFCAD2B022CF04F800BD2B53 /* FavoritesEntity.swift */,
+				AFCAD2B222CF050400BD2B53 /* CatchUpStore.swift */,
+			);
+			path = Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		AFCAD2AB22CF01D600BD2B53 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AF3CCD0022CEFE8A00AF21DE /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF3CCCFC22CEFE8A00AF21DE /* iCatchUpF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3CCD1222CEFE8A00AF21DE /* Build configuration list for PBXNativeTarget "iCatchUpF" */;
+			buildPhases = (
+				59FC0A01DD56321275E946CD /* [CP] Check Pods Manifest.lock */,
+				AF3CCCF922CEFE8A00AF21DE /* Sources */,
+				AF3CCCFA22CEFE8A00AF21DE /* Frameworks */,
+				AF3CCCFB22CEFE8A00AF21DE /* Resources */,
+				529C176CFBB5DFD63B89F31B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCatchUpF;
+			productName = iCatchUpF;
+			productReference = AF3CCCFD22CEFE8A00AF21DE /* iCatchUpF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3CCCF522CEFE8A00AF21DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = final;
+				TargetAttributes = {
+					AF3CCCFC22CEFE8A00AF21DE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AF3CCCF822CEFE8A00AF21DE /* Build configuration list for PBXProject "iCatchUpF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF3CCCF422CEFE8A00AF21DE;
+			productRefGroup = AF3CCCFE22CEFE8A00AF21DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF3CCCFC22CEFE8A00AF21DE /* iCatchUpF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF3CCCFB22CEFE8A00AF21DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3CCD0E22CEFE8A00AF21DE /* LaunchScreen.storyboard in Resources */,
+				AFCAD2A422CF00ED00BD2B53 /* Assets.xcassets in Resources */,
+				AFCAD2A622CF00F900BD2B53 /* Assets.xcassets in Resources */,
+				AF3CCD0622CEFE8A00AF21DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		529C176CFBB5DFD63B89F31B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCatchUpF/Pods-iCatchUpF-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCatchUpF/Pods-iCatchUpF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59FC0A01DD56321275E946CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCatchUpF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3CCCF922CEFE8A00AF21DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCAD2B122CF04F800BD2B53 /* FavoritesEntity.swift in Sources */,
+				AFCAD2BD22CF0B3400BD2B53 /* SourcesViewController.swift in Sources */,
+				AFCAD2AD22CF04DF00BD2B53 /* Article.swift in Sources */,
+				AFCAD2C322CF176D00BD2B53 /* ArticlesViewController.swift in Sources */,
+				AFCAD2BB22CF082200BD2B53 /* NewsApi.swift in Sources */,
+				AFCAD2C722CF25F200BD2B53 /* SourceViewController.swift in Sources */,
+				AFCAD2B322CF050400BD2B53 /* CatchUpStore.swift in Sources */,
+				AFCAD2B522CF054A00BD2B53 /* LogoApi.swift in Sources */,
+				AF3CCD0922CEFE8A00AF21DE /* iCatchUpF.xcdatamodeld in Sources */,
+				AFCAD2AF22CF04E700BD2B53 /* Source.swift in Sources */,
+				AFCAD2C922CF2EDE00BD2B53 /* FavoritesViewController.swift in Sources */,
+				AFCAD2C522CF1C2A00BD2B53 /* ArticleViewController.swift in Sources */,
+				AF3CCD0122CEFE8A00AF21DE /* AppDelegate.swift in Sources */,
+				AFCAD2B722CF071400BD2B53 /* SourcesResponse.swift in Sources */,
+				AFCAD2C122CF0D3600BD2B53 /* UIImageViewExtension.swift in Sources */,
+				AFCAD2B922CF071D00BD2B53 /* ArticlesResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF3CCD0422CEFE8A00AF21DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3CCD0522CEFE8A00AF21DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF3CCD0C22CEFE8A00AF21DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF3CCD0D22CEFE8A00AF21DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF3CCD1022CEFE8A00AF21DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF3CCD1122CEFE8A00AF21DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF3CCD1322CEFE8A00AF21DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7DD681CC24AD334D3755D7 /* Pods-iCatchUpF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6Q22FCL9Y;
+				INFOPLIST_FILE = iCatchUpF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.iCatchUpF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF3CCD1422CEFE8A00AF21DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F8630CEEDE3D40774075A5 /* Pods-iCatchUpF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6Q22FCL9Y;
+				INFOPLIST_FILE = iCatchUpF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.iCatchUpF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3CCCF822CEFE8A00AF21DE /* Build configuration list for PBXProject "iCatchUpF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3CCD1022CEFE8A00AF21DE /* Debug */,
+				AF3CCD1122CEFE8A00AF21DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3CCD1222CEFE8A00AF21DE /* Build configuration list for PBXNativeTarget "iCatchUpF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3CCD1322CEFE8A00AF21DE /* Debug */,
+				AF3CCD1422CEFE8A00AF21DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF3CCD0722CEFE8A00AF21DE /* iCatchUpF.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF3CCD0822CEFE8A00AF21DE /* iCatchUpF.xcdatamodel */,
+			);
+			currentVersion = AF3CCD0822CEFE8A00AF21DE /* iCatchUpF.xcdatamodel */;
+			path = iCatchUpF.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF3CCCF522CEFE8A00AF21DE /* Project object */;
+}
